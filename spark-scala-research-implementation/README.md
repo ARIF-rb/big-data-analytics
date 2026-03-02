@@ -19,6 +19,26 @@ Implementation of a research paper on Big Data Analytics using Apache Spark and 
 └── slides.pdf                    # Presentation slides
 ```
 
+## Prerequisites
+
+- Python 3.8+
+- Java 11 or 17
+- Apache Spark 3.x
+- Jupyter Notebook
+
+## Installation & Running
+
+```bash
+pip install pyspark jupyter
+jupyter notebook implementation.ipynb
+```
+
+To compile and run the Scala source directly:
+
+```bash
+spark-submit originalSourceCode.scala
+```
+
 ## Overview
 
 This assignment implements and analyzes a research paper referenced as `information-13-00058-v2`, replicating its methodology using PySpark. The implementation covers distributed data processing concepts explored in the paper with a comparative analysis in the report.
